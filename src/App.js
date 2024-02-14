@@ -6,6 +6,7 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Products from './pages/Products';
 import NavBar from 'components/NavBar/NavBar';
+import Footer from 'components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/products" element={<Products />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
