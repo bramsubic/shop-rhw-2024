@@ -1,0 +1,9 @@
+:root {
+    --primary: #1e53a5;
+    --secondary: #ffffff;
+}
+
+.navcontainer {
+    background-color: var(--primary);
+    color: var(--secondary);
+}

@@ -1,0 +1,11 @@
+:root {
+    --primary: #1e53a5;
+    --secondary: #ffffff;
+}
+
+.heroContainer {
+    height: 80vh;
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 50px;
+}
