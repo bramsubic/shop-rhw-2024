@@ -4,7 +4,6 @@ import Process from '../components/Home/Process'
 import ProductsHighlight from '../components/Home/ProductsHighlight'
 import Reviews from '../components/Home/Reviews'
 import FAQ from '../components/Home/FAQ'
-import MailingList from '../components/Home/MailingList'
 
 function Home() {
     return(
@@ -14,7 +13,6 @@ function Home() {
             <ProductsHighlight />
             <FAQ />
             <Reviews />
-            <MailingList />
         </div>
     )
 }

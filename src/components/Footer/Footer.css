@@ -1,11 +1,6 @@
-:root {
-    --primary: #1e53a5;
-    --secondary: #ffffff;
-}
-
 .footerContainer {
     height: 30vh;
-    background-color: var(--primary);
+    background-color: var(--third);
     color: var(--secondary);
     font-size: 50px;
 }

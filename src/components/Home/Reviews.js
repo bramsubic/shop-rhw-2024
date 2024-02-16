@@ -1,10 +1,10 @@
 import React from "react";
-import './Hero.css'
+import './Reviews.css'
 
 function Reviews() {
     return(
         <div className="reviewsContainer d-flex justify-content-center align-items-center">
-           <h1>Reviews</h1> 
+           <h1 className="reviewHeader text-center">Raving reviews from our customers</h1> 
         </div>
     )
 }

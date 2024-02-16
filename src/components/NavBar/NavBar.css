@@ -1,9 +1,22 @@
 :root {
     --primary: #1e53a5;
     --secondary: #ffffff;
+    --third: #21248c;
+
 }
 
 .navcontainer {
-    background-color: var(--primary);
+    background-color: var(--third);
+    color: var(--secondary);
+    border-bottom: 1px solid var(--secondary);
+    padding: 20px 10px 20px 35px;
+}
+
+.navlogo, .nav-link {
     color: var(--secondary);
 }
+
+a:link.link, a:visited.link, a:hover.link, a:active.link  {
+    color: var(--secondary);
+}
+
