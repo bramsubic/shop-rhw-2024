@@ -1,31 +1,38 @@
 :root {
-    --primary: #1e53a5;
+    --primary: #ebe9e1;
     --secondary: #ffffff;
-    --third: #21248c;
-
+    --third: ;
 }
 
 .navcontainer {
-    background-color: var(--third);
-    color: var(--secondary);
     border-bottom: 1px solid var(--secondary);
-    padding: 20px 10px 20px 35px;
+    padding: 0px 10px 0px 35px;
 }
 
-.navbar-expand-lg {
-    justify-content: space-between;
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px 20px 0px 20px;
 }
 
 .navlogo, .nav-link {
-    color: var(--secondary);
+    color: var(--primary);
+}
+
+.nav-link {
+    font-family: "Inria Serif", serif;
+    font-size: 15px;
 }
 
 .navlogo {
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 700;
+    letter-spacing: -1px;
 }
 
 a:link.link, a:visited.link, a:hover.link, a:active.link  {
-    color: var(--secondary);
+    color: var(--primary);
 }
 

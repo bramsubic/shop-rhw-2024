@@ -1,30 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Serif:ital@0;1&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap');
+
+
+.racing-sans {
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 
 :root {
-    --primary: #1e53a5;
-    --primary: #1e53a5;
+    --primary: #ebe9e1;
     --secondary: #ffffff;
-    --third: #016abb;
-    /* --third: #21248c; */
-    --light-blue: #ecf5ff;
 }
 
-body {
-    font-family: "Montserrat", sans-serif;
-}
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.inria-serif-light {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }  
 
 h1.sectionHeader {
     font-size: 15px;
-    color: var(--third);
+    color: var(--primary);
     margin: 0;
     padding: 0;
 } 
 
 .headerContainer {
-    background-color: var(--light-blue);
     border-radius: 30px;
     padding: 0px 20px 0px 20px;
     text-align: center;
     width: max-content;
     margin-bottom: 50px;
+}
+
+.navcontainer {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }

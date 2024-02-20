@@ -1,25 +1,25 @@
 import React from "react";
 import "./Hero.css";
+import Container from 'react-bootstrap/Container';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Container from 'react-bootstrap/Container';
 
 function Hero() {
   return (
-    <div className="heroContainer d-flex justify-content-center align-items-center">
-          <Container>
-      <Row>
-        <Col>
-          <div><h1>Welcome <br/> to Egg Master</h1></div>
-          <div className="pt-5"><h2>Our mission is simple: to deliver top-quality eggs while nurturing our communities. Through sustainable practices and a passion for wholesome food, we're redefining excellence one egg at a time.</h2></div>
-        </Col>
-        <Col className="d-flex justify-content-center align-items-center">
-          <div className="imgContainer">
-
-          </div>
-        </Col>
-      </Row>
-      </Container>
+    <div className="heroContainer">
+      {/* <video className="heroVideo" autoPlay muted loop>
+        <source src="hero-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> */}
+      <div className="heroContent">
+      <Container>
+        <Row>
+          <Col>
+            <div><h1 className="instrument-serif-regular">High-quality meals start with us! <br/> Enjoy pasture-raised eggs, <br /> delivered to your door</h1></div>
+          </Col>
+        </Row>
+        </Container>
+      </div>
     </div>
   );
 }

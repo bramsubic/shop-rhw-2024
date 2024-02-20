@@ -7,7 +7,7 @@ import './NavBar.css';
 function NavBar() {
   return (
     <Navbar expand="lg" className="navcontainer">
-      <Navbar.Brand className='navlogo' href="/">Egg Master</Navbar.Brand>
+      <Navbar.Brand className='navlogo racing-sans' href="/">Egg Master</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto"> {/* Change 'me-auto' to 'ml-auto' */}

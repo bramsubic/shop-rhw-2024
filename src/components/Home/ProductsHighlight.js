@@ -5,9 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function ProductsHighlight() {
-  // Assuming you have an array of image URLs
   const images = [
-    "image1.jpg",
+    "/img/1492521.jpg",
     "image2.jpg",
     "image3.jpg",
     "image4.jpg",
