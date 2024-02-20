@@ -4,6 +4,7 @@ import Process from '../components/Home/Process'
 import ProductsHighlight from '../components/Home/ProductsHighlight'
 import Reviews from '../components/Home/Reviews'
 import FAQ from '../components/Home/FAQ'
+import Partners from "components/Home/Partners";
 
 function Home() {
     return(
@@ -11,8 +12,9 @@ function Home() {
             <Hero />
             <Process />
             <ProductsHighlight />
-            <FAQ />
+            <Partners />
             <Reviews />
+            <FAQ />
         </div>
     )
 }

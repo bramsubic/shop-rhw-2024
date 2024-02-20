@@ -1,5 +1,5 @@
 import React from "react";
-import './Process.css'
+import './Process.css';
 import Container from 'react-bootstrap/Container';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,13 +12,18 @@ function Process() {
            <Container>
       <Row>
         <Col>
-        Step 1
+        <div>Step 1</div>
+        <div></div>
         </Col>
         <Col>
-        Step 2
+        <div>Step 2</div>
+        <div></div>
+        
         </Col>
         <Col>
-        Step 1
+        <div>Step 1</div>
+        <div></div>
+        
         </Col>
       </Row>
       </Container>

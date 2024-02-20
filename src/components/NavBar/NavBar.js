@@ -1,33 +1,34 @@
+import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import './NavBar.css'
+import './NavBar.css';
 
 function NavBar() {
   return (
     <Navbar expand="lg" className="navcontainer">
-        <Navbar.Brand className='navlogo' href="/">Egg Master</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link className='link' href="/">Home</Nav.Link>
-            <Nav.Link className='link' href="/about">About</Nav.Link>
-            <Nav.Link className='link' href="/products">Products</Nav.Link>
-            <Nav.Link className='link' href="/blog">Egg University</Nav.Link>
-            <Nav.Link className='link' href="/contact">Contact</Nav.Link>
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
-          </Nav>
-        </Navbar.Collapse>
+      <Navbar.Brand className='navlogo' href="/">Egg Master</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto"> {/* Change 'me-auto' to 'ml-auto' */}
+          <Nav.Link className='link' href="/">Home</Nav.Link>
+          <Nav.Link className='link' href="/about">About</Nav.Link>
+          <Nav.Link className='link' href="/products">Products</Nav.Link>
+          <Nav.Link className='link' href="/blog">Egg University</Nav.Link>
+          <Nav.Link className='link' href="/contact">Contact</Nav.Link>
+          {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Another action
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#action/3.4">
+              Separated link
+            </NavDropdown.Item>
+          </NavDropdown> */}
+        </Nav>
+      </Navbar.Collapse>
     </Navbar>
   );
 }

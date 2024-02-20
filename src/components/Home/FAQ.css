@@ -1,3 +1,10 @@
 .faqContainer {
     padding: 50px 0px 50px 0px;
 }
+
+h1.faqHeader {
+    font-size: 25px;
+    color: var(--third);
+    margin: 0;
+    padding: 0;
+} 

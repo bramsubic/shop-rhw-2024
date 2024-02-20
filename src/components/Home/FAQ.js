@@ -12,7 +12,7 @@ function FAQ() {
         <Row>
           <Col>
             <div>
-              <h1>FAQ</h1>
+              <h1 className="faqHeader">FAQ</h1>
             </div>
           </Col>
 

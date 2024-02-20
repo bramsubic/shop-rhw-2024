@@ -2,8 +2,10 @@
 
 :root {
     --primary: #1e53a5;
+    --primary: #1e53a5;
     --secondary: #ffffff;
-    --third: #21248c;
+    --third: #016abb;
+    /* --third: #21248c; */
     --light-blue: #ecf5ff;
 }
 
@@ -12,15 +14,17 @@ body {
 }
 
 h1.sectionHeader {
-    font-size: 18px;
+    font-size: 15px;
     color: var(--third);
+    margin: 0;
+    padding: 0;
 } 
 
 .headerContainer {
     background-color: var(--light-blue);
-    border: 1px solid var(--light-blue);
     border-radius: 30px;
-    padding: 10px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
     text-align: center;
     width: max-content;
+    margin-bottom: 50px;
 }
