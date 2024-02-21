@@ -4,6 +4,33 @@
     --third: ;
 }
 
+.scrolled {
+    background-color: var(--primary); 
+  }
+
+  .navcontainer.scrolled .navlogo,
+  .navcontainer.scrolled .nav-link {
+    color: #ffb700;
+  }
+
+  .navcontainer.scrolled .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,183,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    width: 1.2em;
+    height: 1.2em;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(235,233,225, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .navcontainer {
     border-bottom: 1px solid var(--secondary);
     padding: 0px 10px 0px 35px;
@@ -24,10 +51,11 @@
 .nav-link {
     font-family: "Inria Serif", serif;
     font-size: 15px;
+    font-weight: 600;
 }
 
 .navlogo {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     letter-spacing: -1px;
 }
