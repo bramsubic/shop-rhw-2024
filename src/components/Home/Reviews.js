@@ -1,4 +1,6 @@
 import React from "react";
+import { Title } from '../../style';
+import { useScroll, useTransform, } from "framer-motion";
 import './Reviews.css';
 
 const reviews = [
@@ -20,16 +22,20 @@ const reviews = [
 ];
 
 function Reviews() {
+    const { scrollYProgress } = useScroll();
+    const x = useTransform(scrollYProgress, [0, 1], [0, -600]);
+
     return (
         <div className="reviewsContainer d-flex justify-content-center align-items-center">
             <div>
                 <h1 className="reviewHeader text-center">Raving reviews from our customers</h1>
+                <Title style={{x}}></Title>
                 <div className="reviewSlider">
                     {reviews.map((review, index) => (
                         <div key={index} className="review">
-                            <h1 className="reviewText">"{review.text}"</h1>
-                            <h1 className="reviewContent">{review.content}</h1>
-                            <h1 className="reviewSig">{review.sig}</h1>
+                            <p  className="reviewText">"{review.text}"</p>
+                            <p className="reviewContent">{review.content}</p>
+                            <p className="reviewSig">{review.sig}</p>
                         </div>
                     ))}
                 </div>

@@ -25,7 +25,7 @@ function ProductsHighlight() {
     const { onClick } = props;
     return (
       <div
-        style={{ ...arrowContainerStyle, position: "absolute", top: "50%", left: "0", transform: "translateY(-50%)" }}
+        style={{ ...arrowContainerStyle, position: "absolute", top: "-20%", right: "5%", transform: "translateY(-50%)" }}
         onClick={onClick}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style={{ fill: "#232326", width: "24px", height: "24px" }}>
@@ -39,7 +39,7 @@ function ProductsHighlight() {
     const { onClick } = props;
     return (
       <div
-        style={{ ...arrowContainerStyle, position: "absolute", top: "50%", right: "0", transform: "translateY(-50%)" }}
+        style={{ ...arrowContainerStyle, position: "absolute", top: "-20%", right: "0", transform: "translateY(-50%)" }}
         onClick={onClick}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style={{ fill: "#232326", width: "24px", height: "24px" }}>

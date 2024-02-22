@@ -5,6 +5,7 @@
 :root {
     --primary: #ebe9e1;
     --secondary: #fff4ec;
+    --black: #121212;
 }
 
 .racing-sans {
@@ -27,7 +28,7 @@
 
 h1.sectionHeader {
     font-size: 15px;
-    color: var(--primary);
+    color: var(--black);
     margin: 0;
     padding: 0;
 } 

@@ -5,3 +5,18 @@
 .reviewsContainer {
     padding: 50px 0px 50px 0px;
 }
+
+.reviewSlider {
+    border: 1px solid black;
+    display: flex;
+}
+
+.review {
+    border: 1px solid red;
+    width: 30vw;
+}
+
+p.reviewText, p.reviewContent, p.reviewSig  {
+    font-size: 1em;
+    line-height: 1.4em;
+}
