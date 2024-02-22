@@ -13,9 +13,9 @@ function Partners() {
     ];
 
     // Mapping images to image components
-    const imageItems = images.map((image, index) => (
-      <Col key={index} xs={3} className="mb-3">
-        <img className="img-fluid" src={image} alt={`Partner Farm ${index + 1}`} />
+    const imageItems = images.map((image, index) => ( 
+      <Col key={index} className="d-flex justify-content-center">
+        <img className="img-fluid imgPartner" src={image} alt={`Partner Farm ${index + 1}`} />
       </Col>
     ));
 
@@ -23,9 +23,11 @@ function Partners() {
         <div className="partnersContainer">
            <h1 className="sectionHeader text-center">OUR PARTNER FARMS</h1>
            <Container>
+            <div className="d-flex justify-content-center">
+            <div className="imgCol w-50">
              <Row>
                {imageItems}
-             </Row>
+             </Row></div></div>
            </Container>
         </div>
     )

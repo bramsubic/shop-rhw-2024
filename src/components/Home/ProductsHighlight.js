@@ -25,7 +25,7 @@ function ProductsHighlight() {
     const { onClick } = props;
     return (
       <div
-        style={{ ...arrowContainerStyle, position: "absolute", top: "-20%", right: "5%", transform: "translateY(-50%)" }}
+        style={{ ...arrowContainerStyle, position: "absolute", top: "-20%", right: "6%", transform: "translateY(-50%)" }}
         onClick={onClick}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style={{ fill: "#232326", width: "24px", height: "24px" }}>
@@ -39,7 +39,7 @@ function ProductsHighlight() {
     const { onClick } = props;
     return (
       <div
-        style={{ ...arrowContainerStyle, position: "absolute", top: "-20%", right: "0", transform: "translateY(-50%)" }}
+        style={{ ...arrowContainerStyle, position: "absolute", top: "-20%", right: "1.5%", transform: "translateY(-50%)" }}
         onClick={onClick}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style={{ fill: "#232326", width: "24px", height: "24px" }}>
@@ -53,7 +53,7 @@ function ProductsHighlight() {
     const { onClick } = props;
     return (
       <div
-        style={{ ...arrowContainerStyle, position: "absolute", top: "0", left: "50%", transform: "translateX(-50%)" }}
+        style={{ ...arrowContainerStyle, position: "absolute", top: "-30%", right: "10%", transform: "translateX(-50%)" }}
         onClick={onClick}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style={{ fill: "#232326", width: "24px", height: "24px" }}>
@@ -67,7 +67,7 @@ function ProductsHighlight() {
     const { onClick } = props;
     return (
       <div
-        style={{ ...arrowContainerStyle, position: "absolute", top: "0", right: "50%", transform: "translateX(50%)" }}
+        style={{ ...arrowContainerStyle, position: "absolute", top: "-30%", right: "8%", transform: "translateX(50%)" }}
         onClick={onClick}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style={{ fill: "#232326", width: "24px", height: "24px" }}>
@@ -85,15 +85,34 @@ function ProductsHighlight() {
     slidesToScroll: 1,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
-    responsive: [
-      {
-        breakpoint: 750,
-        settings: {
-          prevArrow: <CustomPrevArrowMobile />,
-          nextArrow: <CustomNextArrowMobile />,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
         },
-      },
-    ],
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+            prevArrow: <CustomPrevArrowMobile />,
+            nextArrow: <CustomNextArrowMobile />,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
   };
 
   return(

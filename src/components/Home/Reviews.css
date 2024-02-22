@@ -7,13 +7,15 @@
 }
 
 .reviewSlider {
-    border: 1px solid black;
     display: flex;
 }
 
 .review {
-    border: 1px solid red;
-    width: 30vw;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    width: 20vw;
+    padding: 40px 50px;
+    margin: 0px 20px;
 }
 
 p.reviewText, p.reviewContent, p.reviewSig  {

@@ -11,7 +11,7 @@ function ResponsiveAutoExample() {
     <div className="footerContainer pb-5">
       <Container>
         <Row>
-          <Col className="subscribeContainer">
+          <Col xs={12} md={6} className="subscribeContainer">
             <div className="pb-4">Friends let friends know about fresh products and content.</div>
             
             <Form className="w-75">
@@ -23,7 +23,7 @@ function ResponsiveAutoExample() {
               </Button>
             </Form>
           </Col>
-          <Col className="border">
+          <Col xs={12} md={6} className="border">
             <Row>
               <Col>Shop</Col>
               <Col><div>About</div></Col>
@@ -49,9 +49,9 @@ function ResponsiveAutoExample() {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={12} md={6}>
           </Col>
-          <Col className="border d-flex justify-content-between align-items-end">
+          <Col xs={12} md={6} className="border d-flex justify-content-between align-items-end">
             <div>Terms of Use</div>
             <div>Privacy Policy</div>
             <div>© Egg Master 2024</div>

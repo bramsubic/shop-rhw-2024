@@ -33,7 +33,7 @@ function Reviews() {
                 <div className="reviewSlider">
                     {reviews.map((review, index) => (
                         <div key={index} className="review">
-                            <p  className="reviewText">"{review.text}"</p>
+                            <p  className="reviewText text-center">"{review.text}"</p>
                             <p className="reviewContent">{review.content}</p>
                             <p className="reviewSig">{review.sig}</p>
                         </div>
