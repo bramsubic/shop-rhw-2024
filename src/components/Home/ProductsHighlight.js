@@ -6,12 +6,11 @@ import "slick-carousel/slick/slick-theme.css";
 
 function ProductsHighlight() {
   const images = [
-    "/img/1492521.jpg",
-    "image2.jpg",
-    "image3.jpg",
-    "image4.jpg",
-    "image5.jpg",
-    "image6.jpg",
+    "organic.jpg",
+    "organic.jpg",
+    "organic.jpg",
+    "organic.jpg",
+    "organic.jpg",
   ];
 
   const arrowContainerStyle = {
@@ -107,8 +106,8 @@ function ProductsHighlight() {
         </div>
         <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index}>
-              <img src={image} alt={`Product ${index + 1}`} />
+            <div key={index} className="imgContainer">
+              <img className="rounded fluid w-100 h-100" src={image} alt={`Product ${index + 1}`} />
             </div>
           ))}
         </Slider>

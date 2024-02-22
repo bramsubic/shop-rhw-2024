@@ -1,3 +1,14 @@
 .productsContainer {
     padding: 50px 0px 50px 0px;
 }
+
+.imgContainer {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+img {
+    display: block;
+}

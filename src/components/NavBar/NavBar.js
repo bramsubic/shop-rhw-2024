@@ -27,7 +27,7 @@ function NavBar() {
 
   return (
     <Navbar expand="lg" className={`navcontainer ${scrolling ? 'scrolled' : ''}`}>
-      <Navbar.Brand className='navlogo racing-sans' href="/">Egg Master</Navbar.Brand>
+      <Navbar.Brand className='navlogo New-Kansas-Regular' href="/">Egg Master</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">

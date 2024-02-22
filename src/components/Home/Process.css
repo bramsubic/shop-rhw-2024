@@ -2,3 +2,22 @@
 .processContainer {
     padding: 50px 0px 50px 0px;
 }
+
+.partnersContainer {
+  padding: 50px 0; /* Adjust as needed */
+}
+
+@media (max-width: 768px) {
+  /* Medium screens: Display images as a moving banner */
+  .partnersContainer .row {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    padding-bottom: 10px; /* Add spacing at the bottom for scrollbar */
+  }
+  
+  .partnersContainer .col {
+    flex: 0 0 auto;
+    margin-right: 10px; /* Add margin between images */
+  }
+}
