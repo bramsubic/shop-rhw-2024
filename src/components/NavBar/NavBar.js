@@ -34,7 +34,7 @@ function NavBar() {
           <Nav.Link className='link' href="/">Home</Nav.Link>
           <Nav.Link className='link' href="/about">About</Nav.Link>
           <Nav.Link className='link' href="/products">Products</Nav.Link>
-          <Nav.Link className='link' href="/blog">Eggcyclopedia</Nav.Link>
+          {/* <Nav.Link className='link' href="/blog">Eggcyclopedia</Nav.Link> */}
           <Nav.Link className='link' href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>

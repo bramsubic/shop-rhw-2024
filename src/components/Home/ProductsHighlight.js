@@ -120,7 +120,7 @@ function ProductsHighlight() {
       <div className="productsContainer" style={{ position: "relative" }}>
         <div className="d-flex justify-content-center align-items-center">
           <div className="headerContainer">
-            <h1 className="sectionHeader">PRODUCT SPOTLIGHT</h1>
+            <div className="sectionHeader">PRODUCT SPOTLIGHT</div>
           </div>
         </div>
         <Slider {...settings}>

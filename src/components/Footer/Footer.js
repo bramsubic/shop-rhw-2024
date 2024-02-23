@@ -32,7 +32,7 @@ function ResponsiveAutoExample() {
             <Row>
               <Col></Col>
               <Col>
-              <div>Eggcyclopedia</div>
+              {/* <div>Eggcyclopedia</div> */}
               <div>Contact</div>
               </Col>
               <Col>

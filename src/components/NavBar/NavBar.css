@@ -46,7 +46,6 @@ font-style: normal;
 }
 
 .navcontainer {
-    border-bottom: 1px solid var(--secondary);
     padding: 0px 10px 0px 35px;
 }
 

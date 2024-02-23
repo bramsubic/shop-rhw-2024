@@ -21,7 +21,8 @@ function Partners() {
 
     return(
         <div className="partnersContainer">
-           <h1 className="sectionHeader text-center">OUR PARTNER FARMS</h1>
+                <div className="d-flex justify-content-center align-items-center">
+           <div className="sectionHeader text-center">OUR PARTNER FARMS</div></div>
            <Container>
             <div className="d-flex justify-content-center">
             <div className="imgCol w-50">

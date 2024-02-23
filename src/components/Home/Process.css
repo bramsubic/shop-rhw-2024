@@ -1,10 +1,15 @@
 
 .processContainer {
-    padding: 50px 0px 50px 0px;
+    padding: 100px 0px 100px 0px;
 }
 
 .partnersContainer {
   padding: 50px 0; /* Adjust as needed */
+}
+
+.processTile {
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -21,3 +26,4 @@
     margin-right: 10px; /* Add margin between images */
   }
 }
+

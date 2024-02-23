@@ -23,6 +23,30 @@
   object-fit: cover;
 }
 
+.heroLink {
+  background-color: #335525;
+  color: #ebe9e1;
+}
+
+.heroText {
+  text-shadow: 4px 4px 4px rgba(18,18,18,0.1);
+}
+
+.btn-link {
+  --bs-btn-color: var(--black);
+  --bs-btn-border-color: var(--black);
+  --bs-btn-hover-color: var(--black);
+  --bs-btn-hover-border-color: var(--black);
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-box-shadow: 0 0 0 #000;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  text-decoration: none;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
 h1 {
     font-size: 55px;
     line-height: 60px;
@@ -35,3 +59,4 @@ h1 {
         line-height: 45px;
       }
 }
+

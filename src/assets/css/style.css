@@ -20,17 +20,21 @@
     font-style: normal;
   }
 
-.inria-serif-light {
+.inria-serif-bold {
     font-family: "Inria Serif", serif;
-    font-weight: 300;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
   }  
 
-h1.sectionHeader {
+div.sectionHeader {
     font-size: 15px;
     color: var(--black);
     margin: 0;
-    padding: 0px 0px 40px 0px;
+    padding: 5px 25px;
+    margin: 0px 0px 40px 0px ;
+    border-radius: 30px;
+    background-color: #ced9e5;
 } 
 
 .headerContainer {

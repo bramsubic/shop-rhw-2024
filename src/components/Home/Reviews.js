@@ -1,4 +1,5 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
 import { Title } from '../../style';
 import { useScroll, useTransform, } from "framer-motion";
 import './Reviews.css';
@@ -27,6 +28,7 @@ function Reviews() {
 
     return (
         <div className="reviewsContainer d-flex justify-content-center align-items-center">
+               <Container>
             <div>
                 <h1 className="reviewHeader text-center">Raving reviews from our customers</h1>
                 <Title style={{x}}></Title>
@@ -40,6 +42,7 @@ function Reviews() {
                     ))}
                 </div>
             </div>
+            </Container>
         </div>
     );
 }
