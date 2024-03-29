@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/shop-rhw-2024/static/css/main.3a31ca2c.css",
-    "main.js": "/shop-rhw-2024/static/js/main.e449426b.js",
+    "main.js": "/shop-rhw-2024/static/js/main.7a3be423.js",
     "static/js/592.bd623e54.chunk.js": "/shop-rhw-2024/static/js/592.bd623e54.chunk.js",
     "static/media/FKGroteskNeueTrial-Black-BF6576818b4c472.otf": "/shop-rhw-2024/static/media/FKGroteskNeueTrial-Black-BF6576818b4c472.2849d2849d3d08f1aabb.otf",
     "index.html": "/shop-rhw-2024/index.html",
     "main.3a31ca2c.css.map": "/shop-rhw-2024/static/css/main.3a31ca2c.css.map",
-    "main.e449426b.js.map": "/shop-rhw-2024/static/js/main.e449426b.js.map",
+    "main.7a3be423.js.map": "/shop-rhw-2024/static/js/main.7a3be423.js.map",
     "592.bd623e54.chunk.js.map": "/shop-rhw-2024/static/js/592.bd623e54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a31ca2c.css",
-    "static/js/main.e449426b.js"
+    "static/js/main.7a3be423.js"
   ]
 }
