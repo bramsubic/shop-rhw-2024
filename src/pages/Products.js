@@ -1,11 +1,12 @@
 import React from "react";
+import Work from '../components/Work/Work'
 
-function Products() {
+function ProductsPage() {
     return(
         <div>
-            Products
+            <Work />
         </div>
     )
 }
 
-export default Products;
+export default ProductsPage;

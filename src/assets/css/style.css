@@ -29,7 +29,7 @@
 
 div.sectionHeader {
     font-size: 15px;
-    color: var(--black);
+    /* color: var(--black); */
     margin: 0;
     padding: 5px 25px;
     margin: 0px 0px 40px 0px ;

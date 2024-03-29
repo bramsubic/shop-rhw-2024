@@ -1,25 +1,21 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-import Products from './pages/Products';
 import NavBar from 'components/NavBar/NavBar';
-import Footer from 'components/Footer/Footer';
+import Timeline from 'components/NavBar/Timeline';
+import Work from 'components/Work/Work';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <Timeline />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/products" element={<Products />} />
+        <Route exact path="/products" element={<Work />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
