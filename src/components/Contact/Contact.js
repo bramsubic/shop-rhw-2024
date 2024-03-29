@@ -54,12 +54,16 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const serviceId = process.env.REACT_APP_EMAIL_SERVICE_ID;
+    const templateId = process.env.REACT_APP_EMAIL_TEMPLATE_ID;
+    const userId = process.env.REACT_APP_EMAIL_USER_ID;
+
     emailjs
       .send(
-        "service_k4oou44",
-        "template_l5n28ch",
+        serviceId,
+        templateId,
         formData,
-        "vnAgrBSuR4PCc1KnY"
+        userId
       )
       .then((response) => {
         console.log("Email sent successfully:", response);
